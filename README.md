@@ -1,50 +1,35 @@
-# Welcome to your Expo app 👋
+Cross-Platform Task Manager
+A sleek, high-performance Todo application built with React Native and Expo. This project demonstrates mobile-first design, local data persistence, and efficient state management.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Features
+* Persistent Storage: Uses `AsyncStorage` so your tasks are saved even after closing the app.
+* Platform Specific UI: Optimized layouts for both iOS and Android using Flexbox.
+* Interactive UX: Smooth task completion toggles and "swipe-to-delete" functionality.
+* Clean Architecture: Component-based structure for easy scalability.
 
-## Get started
+ Tech Stack
+* Framework: [React Native](https://reactnative.dev/)
+* Workflow: [Expo](https://expo.dev/)
+* Language: [TypeScript]
+* Storage: [@react-native-async-storage/async-storage](https://react-native-async-storage.github.io/async-storage/)
+* Styling: [NativeWind / StyleSheet API]
 
-1. Install dependencies
 
+ Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   ```
+2. Install dependencies:
    ```bash
    npm install
    ```
-
-2. Start the app
-
+3. Start the development server:
    ```bash
    npx expo start
    ```
+4. Open the **Expo Go** app on your phone and scan the QR code.
 
-In the output, you'll find options to open the app in a
+ Lessons Learned
+While building this, I tackled the challenge of **asynchronous data handling**. Ensuring that the UI updated immediately while the data was being saved to the device's storage taught me a lot about the React lifecycle and effective use of the `useEffect` hook.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
