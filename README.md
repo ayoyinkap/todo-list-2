@@ -12,7 +12,7 @@ Features
 * Workflow: [Expo](https://expo.dev/)
 * Language: [TypeScript]
 * Storage: [@react-native-async-storage/async-storage](https://react-native-async-storage.github.io/async-storage/)
-* Styling: [NativeWind / StyleSheet API]
+* Styling: [StyleSheet API]
 
 
  Installation & Setup
